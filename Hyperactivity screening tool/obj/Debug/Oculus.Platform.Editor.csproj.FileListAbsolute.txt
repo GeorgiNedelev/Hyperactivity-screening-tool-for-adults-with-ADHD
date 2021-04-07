@@ -1,0 +1,2 @@
+C:\Users\Nulle\Desktop\Hyperactivity screening tool\Hyperactivity-screening-tool-for-adults-with-ADHD\Hyperactivity screening tool\obj\Debug\Oculus.Platform.Editor.csprojAssemblyReference.cache
+C:\Users\Nulle\Desktop\Hyperactivity screening tool\Hyperactivity-screening-tool-for-adults-with-ADHD\Hyperactivity screening tool\obj\Debug\Oculus.Platform.Editor.csproj.CoreCompileInputs.cache
