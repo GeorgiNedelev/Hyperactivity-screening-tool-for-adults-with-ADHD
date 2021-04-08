@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Unity.unity
+- path: Assets/Beach/Beacch.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

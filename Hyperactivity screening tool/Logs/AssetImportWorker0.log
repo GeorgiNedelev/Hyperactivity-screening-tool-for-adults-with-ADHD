@@ -1,0 +1,309 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 18363.1440; Version 1909; 64bit' Language: 'en' Physical Memory: 32595 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\Unity\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/CIR/Realvision/Hyperactivity-screening-tool-for-adults-with-ADHD/Hyperactivity screening tool
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58275
+Successfully changed project path to: E:/CIR/Realvision/Hyperactivity-screening-tool-for-adults-with-ADHD/Hyperactivity screening tool
+E:/CIR/Realvision/Hyperactivity-screening-tool-for-adults-with-ADHD/Hyperactivity screening tool
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 271.76 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 4.03 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path E:/Unity/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/CIR/Realvision/Hyperactivity-screening-tool-for-adults-with-ADHD/Hyperactivity screening tool/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   
+    VRAM:     4064 MB
+    Driver:   21.21.13.7654
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'E:/Unity/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005180 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 157.19 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.439 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009065 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.57.0
+Mono: successfully reloaded assembly
+- Completed reload, in  3.633 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2178.
+Total: 5.866900 ms (FindLiveObjects: 0.492900 ms CreateObjectMapping: 0.217600 ms MarkObjects: 4.661400 ms  DeleteObjects: 0.491900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Beach
+  artifactKey: Guid(b8d80309348b3ea44a2de9be4e85fae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach using Guid(b8d80309348b3ea44a2de9be4e85fae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d37527f5b14f8d16c6a1a7be79e392') in 0.028429 seconds
+  Import took 0.038413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.487153 seconds.
+  path: Assets/Beach/UrbanNightSky
+  artifactKey: Guid(8ce77638fba939849bcca9d8d4a7d783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky using Guid(8ce77638fba939849bcca9d8d4a7d783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a850681c32d6e5a105942dfe11523a') in 0.035555 seconds
+  Import took 0.049224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.293240 seconds.
+  path: Assets/Beach/UrbanNightSky/Demo
+  artifactKey: Guid(928a0ae9cf623f64cb909c7f933c5ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky/Demo using Guid(928a0ae9cf623f64cb909c7f933c5ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f7bf499132b3eb9aab0933821bb63a') in 0.037329 seconds
+  Import took 0.050719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003786 seconds.
+  path: Assets/Beach/UrbanNightSky/Demo
+  artifactKey: Guid(928a0ae9cf623f64cb909c7f933c5ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky/Demo using Guid(928a0ae9cf623f64cb909c7f933c5ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f7bf499132b3eb9aab0933821bb63a') in 0.023364 seconds
+  Import took 0.047416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.382529 seconds.
+  path: Assets/Beach/UrbanNightSky/Demo/UrbanNightSky Demo.unity
+  artifactKey: Guid(0e789f544dcc6f44b938524326765974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky/Demo/UrbanNightSky Demo.unity using Guid(0e789f544dcc6f44b938524326765974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af1f38568c4fbac501cc76e4075d0cc') in 0.082272 seconds
+  Import took 0.095938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.687182 seconds.
+  path: Assets/Beach/UrbanNightSky/Demo/Materials
+  artifactKey: Guid(383b263db94e6164cb4c3fe8b60740b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky/Demo/Materials using Guid(383b263db94e6164cb4c3fe8b60740b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a60113ddd77cd63ce7247a2558298ea') in 0.041886 seconds
+  Import took 0.057412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111746 seconds.
+  path: Assets/Beach/UrbanNightSky/Demo/Materials/UrbanNightSkyMaterial.mat
+  artifactKey: Guid(3876d0e183013044aab5adba683217d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky/Demo/Materials/UrbanNightSkyMaterial.mat using Guid(3876d0e183013044aab5adba683217d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868954245859918d734b112d1fb53be6') in 4.643564 seconds
+  Import took 4.663775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.319401 seconds.
+  path: Assets/Scenes/Vr movement.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Vr movement.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2578241b8921bd611a5e0afdddff683f') in 0.038639 seconds
+  Import took 0.051887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.166117 seconds.
+  path: Assets/Beach/UrbanNightSky/Textures
+  artifactKey: Guid(8af58ef2e2d966a43b045e43919d814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky/Textures using Guid(8af58ef2e2d966a43b045e43919d814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf94409bd03bef5cb0e2cba70f3aca9') in 0.032223 seconds
+  Import took 0.043796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003117 seconds.
+  path: Assets/Beach/UrbanNightSky/Textures
+  artifactKey: Guid(8af58ef2e2d966a43b045e43919d814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky/Textures using Guid(8af58ef2e2d966a43b045e43919d814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf94409bd03bef5cb0e2cba70f3aca9') in 0.008501 seconds
+  Import took 0.022909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.901910 seconds.
+  path: Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Back.png
+  artifactKey: Guid(6ef94ae4b0007cd438b483cd250be993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Back.png using Guid(6ef94ae4b0007cd438b483cd250be993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2dd6b96674970134d28b763816055c5') in 1.183893 seconds
+  Import took 1.199362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001179 seconds.
+  path: Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Right.png
+  artifactKey: Guid(a56b67fd5c6c1e74dbce262d25768be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Right.png using Guid(a56b67fd5c6c1e74dbce262d25768be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901af7a95a3e6e13ea9a0dd0181ffc0e') in 0.767961 seconds
+  Import took 0.783538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001349 seconds.
+  path: Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Bottom.png
+  artifactKey: Guid(cdf48daf83873b8469b42b1af03b7cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Bottom.png using Guid(cdf48daf83873b8469b42b1af03b7cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a058b4e94fa1688fe2e131dbf08929') in 0.770859 seconds
+  Import took 0.817297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004771 seconds.
+  path: Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Front.png
+  artifactKey: Guid(c5d79c30433bff14887533ccbb79aa82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Front.png using Guid(c5d79c30433bff14887533ccbb79aa82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455efae36f4d5c6a619d275e046cb606') in 0.930411 seconds
+  Import took 0.952542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001208 seconds.
+  path: Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Top.png
+  artifactKey: Guid(7ec0d505654da4a45add45159bfe0097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Top.png using Guid(7ec0d505654da4a45add45159bfe0097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ecf633f5a06a1157bec73af9a0a333') in 1.044881 seconds
+  Import took 1.067572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001553 seconds.
+  path: Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Left.png
+  artifactKey: Guid(18d870738208882428fe2062a93004e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Left.png using Guid(18d870738208882428fe2062a93004e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ad581c88ec3d599faf98386af38c1c') in 1.020959 seconds
+  Import took 1.040515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.238855 seconds.
+  path: Assets/Beach/Beacch.unity
+  artifactKey: Guid(e0bf43ac6f35b71449d4f6c8dd537d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beacch.unity using Guid(e0bf43ac6f35b71449d4f6c8dd537d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9821a43683b340f5580e5b5b3d3dd0a4') in 0.044065 seconds
+  Import took 0.062815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 257.157147 seconds.
+  path: Assets/Beach/UrbanNightSky Demo.unity
+  artifactKey: Guid(0e789f544dcc6f44b938524326765974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky Demo.unity using Guid(0e789f544dcc6f44b938524326765974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d96ca2533d37cd50f620ea9f5317f7') in 0.033148 seconds
+  Import took 0.057591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.946508 seconds.
+  path: Assets/Beach/UrbanNightSky DemoSettings.lighting
+  artifactKey: Guid(b232c9b64381daf4d8e75ddeee58ad11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky DemoSettings.lighting using Guid(b232c9b64381daf4d8e75ddeee58ad11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffdb4b8754f446d5db4d113071c489f') in 0.053571 seconds
+  Import took 0.067204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029670 seconds.
+  path: Assets/Beach/UrbanNightSky DemoSettings.lighting
+  artifactKey: Guid(b232c9b64381daf4d8e75ddeee58ad11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/UrbanNightSky DemoSettings.lighting using Guid(b232c9b64381daf4d8e75ddeee58ad11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffdb4b8754f446d5db4d113071c489f') in 0.014426 seconds
+  Import took 0.033622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.156538 seconds.
+  path: Assets/Beach/Beacch.unity
+  artifactKey: Guid(e0bf43ac6f35b71449d4f6c8dd537d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beacch.unity using Guid(e0bf43ac6f35b71449d4f6c8dd537d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573cc24f4d258bfc7958840df37e9d4c') in 0.015814 seconds
+  Import took 0.029746 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012784 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.74 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.448 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 1692 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.7 MB.
+System memory in use after: 97.8 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2224.
+Total: 9.013400 ms (FindLiveObjects: 1.469500 ms CreateObjectMapping: 0.872800 ms MarkObjects: 6.471500 ms  DeleteObjects: 0.194300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 64.302453 seconds.
+  path: Assets/Beach/Beacch.unity
+  artifactKey: Guid(e0bf43ac6f35b71449d4f6c8dd537d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beacch.unity using Guid(e0bf43ac6f35b71449d4f6c8dd537d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f268a8d77443163410c567a26e78082') in 0.062346 seconds
+  Import took 0.080527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1904.153560 seconds.
+  path: Assets/Beach/New Material.mat
+  artifactKey: Guid(07eab36eda2d86a4095be470d7325895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/New Material.mat using Guid(07eab36eda2d86a4095be470d7325895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6d591d4b586a8157fcd6710bcfd87a') in 1.100709 seconds
+  Import took 1.119702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.518540 seconds.
+  path: Assets/Beach/New Material 1.mat
+  artifactKey: Guid(6edea76aa01f5b84582e1fa10cd5fe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/New Material 1.mat using Guid(6edea76aa01f5b84582e1fa10cd5fe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517431572e2529874fcd62a256099a8d') in 0.075795 seconds
+  Import took 0.098691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.860960 seconds.
+  path: Assets/Beach/Skybox.mat
+  artifactKey: Guid(6edea76aa01f5b84582e1fa10cd5fe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Skybox.mat using Guid(6edea76aa01f5b84582e1fa10cd5fe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de1c5d080752d9d227a766756b84e5d') in 5.590220 seconds
+  Import took 5.612501 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
