@@ -15,12 +15,12 @@ E:/CIR/Realvision/Hyperactivity-screening-tool-for-adults-with-ADHD/Hyperactivit
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58275
+56972
 Successfully changed project path to: E:/CIR/Realvision/Hyperactivity-screening-tool-for-adults-with-ADHD/Hyperactivity screening tool
 E:/CIR/Realvision/Hyperactivity-screening-tool-for-adults-with-ADHD/Hyperactivity screening tool
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 271.76 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 4.03 ms.
+Refreshing native plugins compatible for Editor in 320.50 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 5.66 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path E:/Unity/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/CIR/Realvision/Hyperactivity-screening-tool-for-adults-with-ADHD/Hyperactivity screening tool/Assets
@@ -36,26 +36,26 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005180 seconds.
+Registered in 0.005852 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 157.19 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 231.08 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.439 seconds
+- Completed reload, in  8.445 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009065 seconds.
+Registered in 0.009854 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 269.49 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -65,245 +65,954 @@ RoslynAnalysisRunner has terminated.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.57.0
 Mono: successfully reloaded assembly
-- Completed reload, in  3.633 seconds
+- Completed reload, in  5.121 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
-Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.7 MB.
-System memory in use after: 88.7 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 2.10 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 2181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.6 MB.
+System memory in use after: 105.6 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2178.
-Total: 5.866900 ms (FindLiveObjects: 0.492900 ms CreateObjectMapping: 0.217600 ms MarkObjects: 4.661400 ms  DeleteObjects: 0.491900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Beach
-  artifactKey: Guid(b8d80309348b3ea44a2de9be4e85fae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach using Guid(b8d80309348b3ea44a2de9be4e85fae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d37527f5b14f8d16c6a1a7be79e392') in 0.028429 seconds
-  Import took 0.038413 seconds .
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2616.
+Total: 34.319800 ms (FindLiveObjects: 9.438700 ms CreateObjectMapping: 5.569300 ms MarkObjects: 16.504300 ms  DeleteObjects: 2.802400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 95.487153 seconds.
-  path: Assets/Beach/UrbanNightSky
-  artifactKey: Guid(8ce77638fba939849bcca9d8d4a7d783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky using Guid(8ce77638fba939849bcca9d8d4a7d783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a850681c32d6e5a105942dfe11523a') in 0.035555 seconds
-  Import took 0.049224 seconds .
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(af6d6c40b6c23084cadf7bcd64c0d8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(af6d6c40b6c23084cadf7bcd64c0d8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779118c57ddc4f6909ec1eff5e816610') in 0.266093 seconds
+  Import took 0.282405 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.293240 seconds.
-  path: Assets/Beach/UrbanNightSky/Demo
-  artifactKey: Guid(928a0ae9cf623f64cb909c7f933c5ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky/Demo using Guid(928a0ae9cf623f64cb909c7f933c5ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f7bf499132b3eb9aab0933821bb63a') in 0.037329 seconds
-  Import took 0.050719 seconds .
+  Time since last request: 765.703457 seconds.
+  path: Assets/Beach/Yughues Free Palm Trees/All PalmTrees.prefab
+  artifactKey: Guid(f8ab9dd2250673b4e9d566833e7eb461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Yughues Free Palm Trees/All PalmTrees.prefab using Guid(f8ab9dd2250673b4e9d566833e7eb461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33607db36a371de018022bd4a7680646') in 0.094602 seconds
+  Import took 0.115139 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003786 seconds.
-  path: Assets/Beach/UrbanNightSky/Demo
-  artifactKey: Guid(928a0ae9cf623f64cb909c7f933c5ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky/Demo using Guid(928a0ae9cf623f64cb909c7f933c5ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f7bf499132b3eb9aab0933821bb63a') in 0.023364 seconds
-  Import took 0.047416 seconds .
+  Time since last request: 2.047767 seconds.
+  path: Assets/Beach/Yughues Free Palm Trees/Prefabs
+  artifactKey: Guid(e415d5265fcb5f9479fe404b332f9851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Yughues Free Palm Trees/Prefabs using Guid(e415d5265fcb5f9479fe404b332f9851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda5ee41d7684c444a039d5eb76ef8b4') in 0.030057 seconds
+  Import took 0.049437 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.382529 seconds.
-  path: Assets/Beach/UrbanNightSky/Demo/UrbanNightSky Demo.unity
-  artifactKey: Guid(0e789f544dcc6f44b938524326765974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky/Demo/UrbanNightSky Demo.unity using Guid(0e789f544dcc6f44b938524326765974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af1f38568c4fbac501cc76e4075d0cc') in 0.082272 seconds
-  Import took 0.095938 seconds .
+  Time since last request: 125.464533 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes
+  artifactKey: Guid(9e5ab0cc11486430ca5fe63b14c060d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes using Guid(9e5ab0cc11486430ca5fe63b14c060d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850ae11baf0b5fa6eb80fe3d11b8a77a') in 0.031585 seconds
+  Import took 0.048515 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.687182 seconds.
-  path: Assets/Beach/UrbanNightSky/Demo/Materials
-  artifactKey: Guid(383b263db94e6164cb4c3fe8b60740b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky/Demo/Materials using Guid(383b263db94e6164cb4c3fe8b60740b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a60113ddd77cd63ce7247a2558298ea') in 0.041886 seconds
-  Import took 0.057412 seconds .
+  Time since last request: 0.007897 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes
+  artifactKey: Guid(9e5ab0cc11486430ca5fe63b14c060d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes using Guid(9e5ab0cc11486430ca5fe63b14c060d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850ae11baf0b5fa6eb80fe3d11b8a77a') in 0.007805 seconds
+  Import took 0.022371 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.111746 seconds.
-  path: Assets/Beach/UrbanNightSky/Demo/Materials/UrbanNightSkyMaterial.mat
-  artifactKey: Guid(3876d0e183013044aab5adba683217d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky/Demo/Materials/UrbanNightSkyMaterial.mat using Guid(3876d0e183013044aab5adba683217d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868954245859918d734b112d1fb53be6') in 4.643564 seconds
-  Import took 4.663775 seconds .
+  Time since last request: 0.313407 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs
+  artifactKey: Guid(6380b439243ab4a92b41fd1291244b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs using Guid(6380b439243ab4a92b41fd1291244b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7707a6c7c40c18073c3145d95e40b333') in 0.007702 seconds
+  Import took 0.022256 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.319401 seconds.
-  path: Assets/Scenes/Vr movement.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Vr movement.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2578241b8921bd611a5e0afdddff683f') in 0.038639 seconds
-  Import took 0.051887 seconds .
+  Time since last request: 1.717359 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/Beachball.prefab
+  artifactKey: Guid(a53dc7c14dd524d869aff830ceb6addb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/Beachball.prefab using Guid(a53dc7c14dd524d869aff830ceb6addb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128e32bf1ded938027831030e8fdd779') in 0.573724 seconds
+  Import took 0.587033 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.166117 seconds.
-  path: Assets/Beach/UrbanNightSky/Textures
-  artifactKey: Guid(8af58ef2e2d966a43b045e43919d814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky/Textures using Guid(8af58ef2e2d966a43b045e43919d814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf94409bd03bef5cb0e2cba70f3aca9') in 0.032223 seconds
-  Import took 0.043796 seconds .
+  Time since last request: 0.001112 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/Surfboard1.prefab
+  artifactKey: Guid(744db4b24e25c46dfafd852803eaf62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/Surfboard1.prefab using Guid(744db4b24e25c46dfafd852803eaf62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc527aab094907c00c6a99c539927c1a') in 0.592773 seconds
+  Import took 0.608090 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003117 seconds.
-  path: Assets/Beach/UrbanNightSky/Textures
-  artifactKey: Guid(8af58ef2e2d966a43b045e43919d814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky/Textures using Guid(8af58ef2e2d966a43b045e43919d814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf94409bd03bef5cb0e2cba70f3aca9') in 0.008501 seconds
-  Import took 0.022909 seconds .
+  Time since last request: 0.001202 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/BeachChair1.prefab
+  artifactKey: Guid(83bd97a15777345c98f6ffef269ce9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/BeachChair1.prefab using Guid(83bd97a15777345c98f6ffef269ce9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278c8098073965c4d51841f5ce782ef2') in 1.452468 seconds
+  Import took 1.465480 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 157.901910 seconds.
-  path: Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Back.png
-  artifactKey: Guid(6ef94ae4b0007cd438b483cd250be993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Back.png using Guid(6ef94ae4b0007cd438b483cd250be993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2dd6b96674970134d28b763816055c5') in 1.183893 seconds
-  Import took 1.199362 seconds .
+  Time since last request: 0.000986 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/VolleyballNet.prefab
+  artifactKey: Guid(60f00f9b917704995bf06e2fd3c2c543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/VolleyballNet.prefab using Guid(60f00f9b917704995bf06e2fd3c2c543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208fc65d1674c984f421ac45de3d5b63') in 0.677111 seconds
+  Import took 0.687596 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001179 seconds.
-  path: Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Right.png
-  artifactKey: Guid(a56b67fd5c6c1e74dbce262d25768be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Right.png using Guid(a56b67fd5c6c1e74dbce262d25768be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901af7a95a3e6e13ea9a0dd0181ffc0e') in 0.767961 seconds
-  Import took 0.783538 seconds .
+  Time since last request: 0.001010 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/BeachUmbrella.prefab
+  artifactKey: Guid(c42244228094d412d95b66c1116ba56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/BeachUmbrella.prefab using Guid(c42244228094d412d95b66c1116ba56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0444bb4406ebdcaf58d62e397a43680f') in 0.528919 seconds
+  Import took 0.548177 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001349 seconds.
-  path: Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Bottom.png
-  artifactKey: Guid(cdf48daf83873b8469b42b1af03b7cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Bottom.png using Guid(cdf48daf83873b8469b42b1af03b7cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a058b4e94fa1688fe2e131dbf08929') in 0.770859 seconds
-  Import took 0.817297 seconds .
+  Time since last request: 0.001215 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/Volleyball.prefab
+  artifactKey: Guid(60f4bdfb49a7840a2989bbd741e814f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/Volleyball.prefab using Guid(60f4bdfb49a7840a2989bbd741e814f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48d97fb78ab74cf343e660c06b05ea8') in 0.079042 seconds
+  Import took 0.093361 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004771 seconds.
-  path: Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Front.png
-  artifactKey: Guid(c5d79c30433bff14887533ccbb79aa82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Front.png using Guid(c5d79c30433bff14887533ccbb79aa82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455efae36f4d5c6a619d275e046cb606') in 0.930411 seconds
-  Import took 0.952542 seconds .
+  Time since last request: 0.001059 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/Surfboard3.prefab
+  artifactKey: Guid(d34ed44f711214307a87aa9850b9232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/Surfboard3.prefab using Guid(d34ed44f711214307a87aa9850b9232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61ab1682a554fdac2dafc6a9abf7952') in 0.664925 seconds
+  Import took 0.678744 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001208 seconds.
-  path: Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Top.png
-  artifactKey: Guid(7ec0d505654da4a45add45159bfe0097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Top.png using Guid(7ec0d505654da4a45add45159bfe0097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ecf633f5a06a1157bec73af9a0a333') in 1.044881 seconds
-  Import took 1.067572 seconds .
+  Time since last request: 0.001052 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/Beachball2.prefab
+  artifactKey: Guid(7e2ebd9ccc7214b6abf033ced06d3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/Beachball2.prefab using Guid(7e2ebd9ccc7214b6abf033ced06d3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fecc1f7ca82e509b5cc88f03b99715') in 0.219826 seconds
+  Import took 0.233467 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001553 seconds.
-  path: Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Left.png
-  artifactKey: Guid(18d870738208882428fe2062a93004e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky/Textures/UrbanNightSky_Left.png using Guid(18d870738208882428fe2062a93004e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ad581c88ec3d599faf98386af38c1c') in 1.020959 seconds
-  Import took 1.040515 seconds .
+  Time since last request: 0.001358 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/Beachchair(Foldable) 2.prefab
+  artifactKey: Guid(5ec45ad715b4d4c23938acde15e70e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/Beachchair(Foldable) 2.prefab using Guid(5ec45ad715b4d4c23938acde15e70e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a2261100d4c7d79f1468a1952f7d9a') in 1.059218 seconds
+  Import took 1.070105 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.238855 seconds.
-  path: Assets/Beach/Beacch.unity
-  artifactKey: Guid(e0bf43ac6f35b71449d4f6c8dd537d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/Beacch.unity using Guid(e0bf43ac6f35b71449d4f6c8dd537d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9821a43683b340f5580e5b5b3d3dd0a4') in 0.044065 seconds
-  Import took 0.062815 seconds .
+  Time since last request: 0.001004 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/Beachball2.prefab
+  artifactKey: Guid(7e2ebd9ccc7214b6abf033ced06d3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/Beachball2.prefab using Guid(7e2ebd9ccc7214b6abf033ced06d3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fecc1f7ca82e509b5cc88f03b99715') in 0.222875 seconds
+  Import took 0.235640 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 257.157147 seconds.
-  path: Assets/Beach/UrbanNightSky Demo.unity
-  artifactKey: Guid(0e789f544dcc6f44b938524326765974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky Demo.unity using Guid(0e789f544dcc6f44b938524326765974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d96ca2533d37cd50f620ea9f5317f7') in 0.033148 seconds
-  Import took 0.057591 seconds .
+  Time since last request: 0.000979 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/Beachchair(Foldable).prefab
+  artifactKey: Guid(1dc3fac990a434af8bb491ba17503d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/Beachchair(Foldable).prefab using Guid(1dc3fac990a434af8bb491ba17503d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce547dc0245f8c67909abfd6985c0fae') in 0.943145 seconds
+  Import took 0.955255 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.946508 seconds.
-  path: Assets/Beach/UrbanNightSky DemoSettings.lighting
-  artifactKey: Guid(b232c9b64381daf4d8e75ddeee58ad11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky DemoSettings.lighting using Guid(b232c9b64381daf4d8e75ddeee58ad11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffdb4b8754f446d5db4d113071c489f') in 0.053571 seconds
-  Import took 0.067204 seconds .
+  Time since last request: 0.001066 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/LifeguardTower.prefab
+  artifactKey: Guid(b549e7d129a5f4bbc82005ad204d050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/LifeguardTower.prefab using Guid(b549e7d129a5f4bbc82005ad204d050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258d6dcfb47796d4d320eccce4db176f') in 4.682561 seconds
+  Import took 4.697958 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.029670 seconds.
-  path: Assets/Beach/UrbanNightSky DemoSettings.lighting
-  artifactKey: Guid(b232c9b64381daf4d8e75ddeee58ad11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/UrbanNightSky DemoSettings.lighting using Guid(b232c9b64381daf4d8e75ddeee58ad11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffdb4b8754f446d5db4d113071c489f') in 0.014426 seconds
-  Import took 0.033622 seconds .
+  Time since last request: 0.001314 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/Old Volleyball.prefab
+  artifactKey: Guid(2b90d0c38e99d41acaa02470d023066d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/Old Volleyball.prefab using Guid(2b90d0c38e99d41acaa02470d023066d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21683981dce1cda5df3980a9b084d03c') in 0.232393 seconds
+  Import took 0.244833 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 87.156538 seconds.
-  path: Assets/Beach/Beacch.unity
-  artifactKey: Guid(e0bf43ac6f35b71449d4f6c8dd537d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/Beacch.unity using Guid(e0bf43ac6f35b71449d4f6c8dd537d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573cc24f4d258bfc7958840df37e9d4c') in 0.015814 seconds
-  Import took 0.029746 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012784 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.74 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.448 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
-Unloading 1692 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.7 MB.
-System memory in use after: 97.8 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2224.
-Total: 9.013400 ms (FindLiveObjects: 1.469500 ms CreateObjectMapping: 0.872800 ms MarkObjects: 6.471500 ms  DeleteObjects: 0.194300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 64.302453 seconds.
-  path: Assets/Beach/Beacch.unity
-  artifactKey: Guid(e0bf43ac6f35b71449d4f6c8dd537d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/Beacch.unity using Guid(e0bf43ac6f35b71449d4f6c8dd537d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f268a8d77443163410c567a26e78082') in 0.062346 seconds
-  Import took 0.080527 seconds .
+  Time since last request: 0.001128 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/Surfboard2.prefab
+  artifactKey: Guid(c259968d1caaa4635b7c13f3f94e251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/Surfboard2.prefab using Guid(c259968d1caaa4635b7c13f3f94e251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564e42ff1133e12947f205362554b18c') in 0.765864 seconds
+  Import took 0.778698 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1904.153560 seconds.
-  path: Assets/Beach/New Material.mat
-  artifactKey: Guid(07eab36eda2d86a4095be470d7325895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/New Material.mat using Guid(07eab36eda2d86a4095be470d7325895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6d591d4b586a8157fcd6710bcfd87a') in 1.100709 seconds
-  Import took 1.119702 seconds .
+  Time since last request: 0.001252 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/BeachBucket.prefab
+  artifactKey: Guid(166ca20d8679849429412da6990e81a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/BeachBucket.prefab using Guid(166ca20d8679849429412da6990e81a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a16b816b9833a12724a5a8239d1884') in 0.557675 seconds
+  Import took 0.574063 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 111.518540 seconds.
-  path: Assets/Beach/New Material 1.mat
-  artifactKey: Guid(6edea76aa01f5b84582e1fa10cd5fe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/New Material 1.mat using Guid(6edea76aa01f5b84582e1fa10cd5fe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517431572e2529874fcd62a256099a8d') in 0.075795 seconds
-  Import took 0.098691 seconds .
+  Time since last request: 0.001010 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/PicnicTable.prefab
+  artifactKey: Guid(6b33a32ee238540e196deb1d94f361dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/PicnicTable.prefab using Guid(6b33a32ee238540e196deb1d94f361dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95634c8a48ab91bfc7e4cfed2b67f8b') in 2.583733 seconds
+  Import took 2.597448 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 189.860960 seconds.
-  path: Assets/Beach/Skybox.mat
-  artifactKey: Guid(6edea76aa01f5b84582e1fa10cd5fe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach/Skybox.mat using Guid(6edea76aa01f5b84582e1fa10cd5fe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de1c5d080752d9d227a766756b84e5d') in 5.590220 seconds
-  Import took 5.612501 seconds .
+  Time since last request: 0.000977 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/Lifesaver.prefab
+  artifactKey: Guid(7b047d6be874343ed89b39217d759622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/Lifesaver.prefab using Guid(7b047d6be874343ed89b39217d759622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fa0aa05944c176e13482263f0b1ae0') in 0.429620 seconds
+  Import took 0.442416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001038 seconds.
+  path: Assets/Beach/Beach Essentials/Prefabs/Umbrella.prefab
+  artifactKey: Guid(409b9a3db4c4d43e1b35d4ca8302f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Prefabs/Umbrella.prefab using Guid(409b9a3db4c4d43e1b35d4ca8302f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815650e367f275ab4ab904fd07f5f40d') in 1.146930 seconds
+  Import took 1.161530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.874035 seconds.
+  path: Assets/Beach/Yughues Free Palm Trees
+  artifactKey: Guid(65aee5154381ebd4e91f9dae42758001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Yughues Free Palm Trees using Guid(65aee5154381ebd4e91f9dae42758001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958c85de90a2392ef1e9e3cdad5d7a2a') in 0.012736 seconds
+  Import took 0.025410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.440632 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 04/diffuse.tga
+  artifactKey: Guid(b3a688c8751b80348b50c839645b1893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 04/diffuse.tga using Guid(b3a688c8751b80348b50c839645b1893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d82c21c824121e2799809f4977cd424') in 0.096617 seconds
+  Import took 0.108881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001140 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 04/preview.jpg
+  artifactKey: Guid(694b20c372c6c0b45bf35c32e619ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 04/preview.jpg using Guid(694b20c372c6c0b45bf35c32e619ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bee7f5729854ecc65f0d68c6aeb69b5') in 0.231631 seconds
+  Import took 0.243450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001020 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 04/normal.tga
+  artifactKey: Guid(5b605e7f683caf04cbc4b1b74299d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 04/normal.tga using Guid(5b605e7f683caf04cbc4b1b74299d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c368d33178c5060ee96ec4bf2b3542b') in 0.080612 seconds
+  Import took 0.095364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001099 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 04/Sand pattern 04.mat
+  artifactKey: Guid(5316922ceb4b0e049a0264d9d31c6a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 04/Sand pattern 04.mat using Guid(5316922ceb4b0e049a0264d9d31c6a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5d5842420cacf53903957c372c84dc') in 0.191712 seconds
+  Import took 0.203233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001017 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 04/normal.tga
+  artifactKey: Guid(5b605e7f683caf04cbc4b1b74299d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 04/normal.tga using Guid(5b605e7f683caf04cbc4b1b74299d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c368d33178c5060ee96ec4bf2b3542b') in 0.070164 seconds
+  Import took 0.082708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.426198 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(4e3a515e74d452a4484b490ef23211f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(4e3a515e74d452a4484b490ef23211f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5e374f7f3f0ebe338d6d450494cf99') in 0.036155 seconds
+  Import took 0.051171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.972524 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/Beachball.fbx
+  artifactKey: Guid(f88b3d4b18f3b4e91bd18e5d4dcc1469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/Beachball.fbx using Guid(f88b3d4b18f3b4e91bd18e5d4dcc1469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c2834babf217072d0dad0129921892') in 0.622742 seconds
+  Import took 0.640608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000838 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/Lifeguardsign.fbx
+  artifactKey: Guid(327a1fad143884a30a56c4a086d0d238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/Lifeguardsign.fbx using Guid(327a1fad143884a30a56c4a086d0d238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c6200e6766146af2733fb1eeb201d8') in 0.124022 seconds
+  Import took 0.141348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000924 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/Surfboard1.fbx
+  artifactKey: Guid(4d166d1773bcb49f79e0192fc0a2ab6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/Surfboard1.fbx using Guid(4d166d1773bcb49f79e0192fc0a2ab6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6027e2babfd01f2a6d293b1aebbfabc') in 0.146464 seconds
+  Import took 0.164516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001031 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/BeachUmbrella.fbx
+  artifactKey: Guid(e7d946ff6489149178114101bff87533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/BeachUmbrella.fbx using Guid(e7d946ff6489149178114101bff87533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64fc89ac5371934fac35fd06ad741c1d') in 0.259829 seconds
+  Import took 0.274207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000862 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/Umbrella.fbx
+  artifactKey: Guid(749893d2eefe544fa9e84282bae1e34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/Umbrella.fbx using Guid(749893d2eefe544fa9e84282bae1e34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0bfc8f1857cdfd39e87af1c6da5c41') in 0.233664 seconds
+  Import took 0.250559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001041 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/Surfboard2.fbx
+  artifactKey: Guid(594e3614c0c05436bad97c28c2394b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/Surfboard2.fbx using Guid(594e3614c0c05436bad97c28c2394b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f8afc96ddcf5f52f1af0886a7b3aa0') in 0.111134 seconds
+  Import took 0.128494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000800 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/LifeguardTower.fbx
+  artifactKey: Guid(41b656d631bb340a396b501db5e1ba0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/LifeguardTower.fbx using Guid(41b656d631bb340a396b501db5e1ba0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e79ce6f86920a5bd14c3f29055a047d') in 0.099549 seconds
+  Import took 0.114073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001112 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/VolleyballNet.fbx
+  artifactKey: Guid(e7ca39643562c43ed8c0bd6af4dc4645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/VolleyballNet.fbx using Guid(e7ca39643562c43ed8c0bd6af4dc4645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da6cfdc41bc943f08a689903ba318a0') in 0.701038 seconds
+  Import took 0.718758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000849 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/BeachBall1.mat
+  artifactKey: Guid(75d4a74b69bb54a4cb36b3d1754fb6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/BeachBall1.mat using Guid(75d4a74b69bb54a4cb36b3d1754fb6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6184beee51f2b2d4a8f92df47dd35c') in 0.333957 seconds
+  Import took 0.347637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001440 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Surfboard2.mat
+  artifactKey: Guid(c75328459bad64f998651ef2b233fb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Surfboard2.mat using Guid(c75328459bad64f998651ef2b233fb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68a026b4da6a9815929300c56b95d86') in 0.630879 seconds
+  Import took 0.646103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001425 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/BeachBall2.mat
+  artifactKey: Guid(a600b4815c5bb415685973f956343f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/BeachBall2.mat using Guid(a600b4815c5bb415685973f956343f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cda1f082cfbc42bc35a63ffa794df2') in 0.332975 seconds
+  Import took 0.353885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001040 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Sand 1.mat
+  artifactKey: Guid(3af64082e921c41879686609e4abf04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Sand 1.mat using Guid(3af64082e921c41879686609e4abf04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6187a1a90afcfd69a30032d13bf69671') in 1.016803 seconds
+  Import took 1.032223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000896 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Chrome.mat
+  artifactKey: Guid(41072158194174af7ae91b0a3e174ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Chrome.mat using Guid(41072158194174af7ae91b0a3e174ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc973731aa52b1579af9865a0d7f4beb') in 0.195729 seconds
+  Import took 0.211087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001076 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Posts.mat
+  artifactKey: Guid(3985ea8d37a144d8ea14e1b990323cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Posts.mat using Guid(3985ea8d37a144d8ea14e1b990323cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdbf78b763b5efe8d9f92ffdda8a4f26') in 0.760106 seconds
+  Import took 0.779139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000948 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Lifeguardsign 1.mat
+  artifactKey: Guid(12b4978b5b978488b8551215b2bf31aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Lifeguardsign 1.mat using Guid(12b4978b5b978488b8551215b2bf31aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b86be8c3f0ff3a5656e500442ef8427') in 0.331717 seconds
+  Import took 0.347238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000990 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/WhitePlastic 1.mat
+  artifactKey: Guid(5c01bc643ce864e17a6bf4f822fcab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/WhitePlastic 1.mat using Guid(5c01bc643ce864e17a6bf4f822fcab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dee39da2e965a47f333cf71c86bbad3') in 0.564899 seconds
+  Import took 0.581180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000964 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Sand.mat
+  artifactKey: Guid(36dc31c319681407abc2da4ddfe78a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Sand.mat using Guid(36dc31c319681407abc2da4ddfe78a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5da4d7f73657b7fc5b752690010bf2') in 1.038269 seconds
+  Import took 1.055173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001060 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/Surfboard3.fbx
+  artifactKey: Guid(8e245f23736474956bcc02202ce7352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/Surfboard3.fbx using Guid(8e245f23736474956bcc02202ce7352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399836c23b6a7057d6e2e39a66a737d1') in 0.101258 seconds
+  Import took 0.116119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000972 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/BeachChair2.fbx
+  artifactKey: Guid(cf9d2b9442fc846bea9534e7b8b13557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/BeachChair2.fbx using Guid(cf9d2b9442fc846bea9534e7b8b13557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e3033046851b2614e71449c00c8cad') in 0.204451 seconds
+  Import took 0.217612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/BeachBucket.fbx
+  artifactKey: Guid(938364dc1f18e4f9a845235082711a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/BeachBucket.fbx using Guid(938364dc1f18e4f9a845235082711a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138038f85a2d82efd9812b95da4b8811') in 0.218751 seconds
+  Import took 0.233415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000940 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Surfboard1.mat
+  artifactKey: Guid(4d7e58d296561408a9a866c4139855c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Surfboard1.mat using Guid(4d7e58d296561408a9a866c4139855c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48805e8a7f326723f7ae999fbfb182dd') in 0.126230 seconds
+  Import took 0.145883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000887 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/BeachBucket.fbx
+  artifactKey: Guid(938364dc1f18e4f9a845235082711a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/BeachBucket.fbx using Guid(938364dc1f18e4f9a845235082711a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138038f85a2d82efd9812b95da4b8811') in 0.213021 seconds
+  Import took 0.226063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000871 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Volleyball.mat
+  artifactKey: Guid(4d22fd953ecfa4143bb41f29dd8db3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Volleyball.mat using Guid(4d22fd953ecfa4143bb41f29dd8db3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c8fa440b1726e30191a8f7497dd959') in 0.196685 seconds
+  Import took 0.209470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000903 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Net.mat
+  artifactKey: Guid(d966003f22d68474395c27e53d4d590f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Net.mat using Guid(d966003f22d68474395c27e53d4d590f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94328401bf01d5a4f752dd1703af1941') in 0.645705 seconds
+  Import took 0.657518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000888 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Fabric7.mat
+  artifactKey: Guid(80c6c8e023eef4694b914e9727e889a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Fabric7.mat using Guid(80c6c8e023eef4694b914e9727e889a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cd73eef6a0ffadea332de126e17858') in 0.612001 seconds
+  Import took 0.624663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000848 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/Beachchair(Foldable).fbx
+  artifactKey: Guid(62fd1c0699a884e66a4380e115970e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/Beachchair(Foldable).fbx using Guid(62fd1c0699a884e66a4380e115970e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa6c0fa24b54620225c0e269aef8513') in 0.233999 seconds
+  Import took 0.249230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001002 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Wood2.mat
+  artifactKey: Guid(e3872ae9fef8e4ea4bdcb6408678f5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Wood2.mat using Guid(e3872ae9fef8e4ea4bdcb6408678f5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195f07f482d2d6bb376b3ec59fea5a67') in 3.949355 seconds
+  Import took 3.968309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000903 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/PicnicTable.fbx
+  artifactKey: Guid(163bafb9dd3d945e79eb4aef7d9a3822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/PicnicTable.fbx using Guid(163bafb9dd3d945e79eb4aef7d9a3822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1718ce324015a6c2f06159045fa5f5f3') in 0.079934 seconds
+  Import took 0.093830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001100 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/WhitePlastic.mat
+  artifactKey: Guid(deafec7ce084d45b0b2094def4e6e184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/WhitePlastic.mat using Guid(deafec7ce084d45b0b2094def4e6e184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb7b136b55b620d54dfe65671455162') in 0.544322 seconds
+  Import took 0.560130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000992 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/WhitePlastic 2.mat
+  artifactKey: Guid(97ada3cbe8c0640b2847fa7b7916757d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/WhitePlastic 2.mat using Guid(97ada3cbe8c0640b2847fa7b7916757d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecceeeb786d592d6c2a206fcf231d8ad') in 0.482160 seconds
+  Import took 0.497742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000904 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/BeachSky.mat
+  artifactKey: Guid(26093e06623964a08b877b28306de052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/BeachSky.mat using Guid(26093e06623964a08b877b28306de052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014473a6855a52607e22644920a0fb63') in 0.896862 seconds
+  Import took 0.910439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000907 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Surfboard3.mat
+  artifactKey: Guid(0ad6a4824b3774ac291f37f576322037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Surfboard3.mat using Guid(0ad6a4824b3774ac291f37f576322037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cc436f29fd6060aafc7fe0d8a30f9d') in 0.442469 seconds
+  Import took 0.456207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000941 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Fabric3.mat
+  artifactKey: Guid(fe9dbc30a401e48a588e7f750038f554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Fabric3.mat using Guid(fe9dbc30a401e48a588e7f750038f554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a0931f95333719ee44058dd4bc9bf2') in 0.758153 seconds
+  Import took 0.772556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000965 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/WhiteFaric.mat
+  artifactKey: Guid(9adef8f06f4ce49ec83bbe26b0ec3e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/WhiteFaric.mat using Guid(9adef8f06f4ce49ec83bbe26b0ec3e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b2fb21fcb9d8252b5832c5a51258f6') in 0.581095 seconds
+  Import took 0.595437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000893 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Fabric8.mat
+  artifactKey: Guid(9c3f373e8bdbb4b308dc4785f9fd3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Fabric8.mat using Guid(9c3f373e8bdbb4b308dc4785f9fd3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f832b7e08773ac719de5e726db58717') in 0.603324 seconds
+  Import took 0.621650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000938 seconds.
+  path: Assets/Beach/Beach Essentials/Materials/Fabric5.mat
+  artifactKey: Guid(d712a291794654f418746ad05b334dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Materials/Fabric5.mat using Guid(d712a291794654f418746ad05b334dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ceb6c90fabd1680d72e2622af08f3c2') in 0.695366 seconds
+  Import took 0.709912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/Beach/Beach Essentials/Meshes/Volleyball.fbx
+  artifactKey: Guid(c71923256946c49c593eeeb3adb0590b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Meshes/Volleyball.fbx using Guid(c71923256946c49c593eeeb3adb0590b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ba209bfab7d5e469d88eb14b0c7460') in 0.158775 seconds
+  Import took 0.171585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.202383 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/AquaFabric.png
+  artifactKey: Guid(e9dfbb29ee9464a9d9b445fe3f12423c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/AquaFabric.png using Guid(e9dfbb29ee9464a9d9b445fe3f12423c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc10fd8ebfc1466fba2e6479b76f1b50') in 0.124241 seconds
+  Import took 0.140770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001120 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/TexturesCom_Various0236_2_seamless_S.png
+  artifactKey: Guid(98d8a91a5541844a0a8ac070933c78ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/TexturesCom_Various0236_2_seamless_S.png using Guid(98d8a91a5541844a0a8ac070933c78ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f3593062095e6e1d71d61215cea202') in 0.197167 seconds
+  Import took 0.209721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001110 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/umbrella1.png
+  artifactKey: Guid(28833988ad0d646908f84cbaf04b07d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/umbrella1.png using Guid(28833988ad0d646908f84cbaf04b07d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d23a5554eeef236b1270663226fb3c') in 0.185147 seconds
+  Import took 0.199882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000956 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/whitewood.png
+  artifactKey: Guid(d2ae59efa9033445791b2f14cc8591df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/whitewood.png using Guid(d2ae59efa9033445791b2f14cc8591df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe8b510d717b71b30d75799b3301edc') in 1.781135 seconds
+  Import took 1.795755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000926 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/Lifeguardsign.png
+  artifactKey: Guid(3e9f6fefc3b164e68b09c4b544242abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/Lifeguardsign.png using Guid(3e9f6fefc3b164e68b09c4b544242abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bbb0a61bb142e9613998a2a1dcd1b6') in 0.138572 seconds
+  Import took 0.150797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001172 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/TexturesCom_Various0236_1_seamless_S.png
+  artifactKey: Guid(e66e9f96e2ce745ac82425b8f65d847d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/TexturesCom_Various0236_1_seamless_S.png using Guid(e66e9f96e2ce745ac82425b8f65d847d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e161f9e8e391b9cd653593f6a3cba1d') in 0.152681 seconds
+  Import took 0.166867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001117 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/TexturesCom_Metal_SteelRusted_512_normal.tif
+  artifactKey: Guid(cc7dbbe2709124a4899fc5db52c4c697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/TexturesCom_Metal_SteelRusted_512_normal.tif using Guid(cc7dbbe2709124a4899fc5db52c4c697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcef197325d73ec0e9ad599ba124a4a') in 0.175822 seconds
+  Import took 0.192113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000880 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/Beachball2.png
+  artifactKey: Guid(d158d3939027948e8b28c26ac4ad2802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/Beachball2.png using Guid(d158d3939027948e8b28c26ac4ad2802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3d7323c79b4dd82b476fa76e819493') in 0.267027 seconds
+  Import took 0.278546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000898 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/Denim.png
+  artifactKey: Guid(d3d0922c68c5f43bd9e715dcdc5d99a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/Denim.png using Guid(d3d0922c68c5f43bd9e715dcdc5d99a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6ca51c0ccbd1e5271e1e277d70d73a') in 0.486223 seconds
+  Import took 0.498730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000887 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/SurfTexture3.png
+  artifactKey: Guid(674220fbcead044d3a2276c1479490b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/SurfTexture3.png using Guid(674220fbcead044d3a2276c1479490b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4036554be8ec67070626f616179735b') in 0.442072 seconds
+  Import took 0.455704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000913 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/Plastic.tif
+  artifactKey: Guid(cce52e6104f0d42b2a802041da4c524c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/Plastic.tif using Guid(cce52e6104f0d42b2a802041da4c524c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996585fdcf4c364f80a8cb6c7ad361c4') in 0.611419 seconds
+  Import took 0.629436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001038 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/VertStripes.png
+  artifactKey: Guid(3df0217526d9e458dadb2953e79c9923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/VertStripes.png using Guid(3df0217526d9e458dadb2953e79c9923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb484cbd7e39e78a152e62ac3af80b5d') in 0.176172 seconds
+  Import took 0.195766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001023 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/Umbrella2.png
+  artifactKey: Guid(e6d5d38e83fb54d438dec5682979d65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/Umbrella2.png using Guid(e6d5d38e83fb54d438dec5682979d65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801349ceb367ecde09f965fab4d6465f') in 0.076854 seconds
+  Import took 0.090438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000896 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/SchemeFabric2.png
+  artifactKey: Guid(c9d06daedaee740bdab4c934047b6873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/SchemeFabric2.png using Guid(c9d06daedaee740bdab4c934047b6873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd441a9497b2f3f1ce88a7640b6ab4eba') in 0.476650 seconds
+  Import took 0.490852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/Volleyball.png
+  artifactKey: Guid(7be49c2df59dd4cd3a1e562a7c4a3ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/Volleyball.png using Guid(7be49c2df59dd4cd3a1e562a7c4a3ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc70f29e6a3e5afd2484f91559a369c8') in 0.157709 seconds
+  Import took 0.170005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001012 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/TexturesCom_WoodFine0059_11_seamless_S 1.png
+  artifactKey: Guid(7a8cb4fdcb5db427193e7eb5d61ae54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/TexturesCom_WoodFine0059_11_seamless_S 1.png using Guid(7a8cb4fdcb5db427193e7eb5d61ae54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6158f91a538dbd2f42c558848088f96') in 0.495259 seconds
+  Import took 0.508146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000788 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/Chrome.png
+  artifactKey: Guid(e08fc526de60d49158759fe5bcd4cedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/Chrome.png using Guid(e08fc526de60d49158759fe5bcd4cedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ba867f9d609c16fb0abec5e98d63f3') in 0.171111 seconds
+  Import took 0.184021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000862 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/whitewood 1.png
+  artifactKey: Guid(69598127800a140cd83617b2beb78ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/whitewood 1.png using Guid(69598127800a140cd83617b2beb78ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d466d79b939ef1407275c2bce69968f') in 1.722908 seconds
+  Import took 1.736405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000964 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/Lifesaver.png
+  artifactKey: Guid(9ce2119350cbe4413a8b98ccb1554f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/Lifesaver.png using Guid(9ce2119350cbe4413a8b98ccb1554f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4217600b8f4348f87bf813a8c2273ea') in 0.258344 seconds
+  Import took 0.271511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001095 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/Net.png
+  artifactKey: Guid(a34363582182e4d6fa8adc75d861df1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/Net.png using Guid(a34363582182e4d6fa8adc75d861df1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95044eb25c51165b6e7a89bf0120ed95') in 0.214970 seconds
+  Import took 0.227570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000954 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/TexturesCom_Metal_SteelRusted_512_albedo.tif
+  artifactKey: Guid(f4a8481959db84c58a310290034b7766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/TexturesCom_Metal_SteelRusted_512_albedo.tif using Guid(f4a8481959db84c58a310290034b7766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67dc3a3a148a0349e2167f724cfbe0c') in 0.156528 seconds
+  Import took 0.168679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000897 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/surftexture.png
+  artifactKey: Guid(df00634bf9734402386106409221a315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/surftexture.png using Guid(df00634bf9734402386106409221a315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b47c94cb2ba26b7f422ae82b07b10d') in 0.126403 seconds
+  Import took 0.140080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000939 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/volleyballnormal.png
+  artifactKey: Guid(ffed944801b3443688d6a8e5c42ad4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/volleyballnormal.png using Guid(ffed944801b3443688d6a8e5c42ad4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e414ab06b8de9791a334dd248d0c426') in 0.077832 seconds
+  Import took 0.091912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000937 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/Sand 2.png
+  artifactKey: Guid(69d47a0aa99124c4a812dc71d7662e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/Sand 2.png using Guid(69d47a0aa99124c4a812dc71d7662e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff28ebc9e294cf80404bfc9ac91bad0') in 0.549317 seconds
+  Import took 0.565717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000921 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/Beachball1.png
+  artifactKey: Guid(7f98de9377d88466a992d9bfb2b4aac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/Beachball1.png using Guid(7f98de9377d88466a992d9bfb2b4aac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ecc093109ad5b3016dbb69b6327f92') in 0.405412 seconds
+  Import took 0.421523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000863 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/Posts.png
+  artifactKey: Guid(8b6f7a826c28d4868bda812f136b07e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/Posts.png using Guid(8b6f7a826c28d4868bda812f136b07e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b151e9a98f97e6730c720b7d9240df2') in 0.287870 seconds
+  Import took 0.304621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/SurfTexture2.png
+  artifactKey: Guid(0789c8dea9d1944f5bc8b022e7d5d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/SurfTexture2.png using Guid(0789c8dea9d1944f5bc8b022e7d5d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd1339983c623d057e3cbcaa3840434') in 0.522256 seconds
+  Import took 0.543501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000863 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/BeachSky.png
+  artifactKey: Guid(27b8f8660067f454d8c1715d96448208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/BeachSky.png using Guid(27b8f8660067f454d8c1715d96448208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585d906f012e308d14df511a652f7dee') in 0.906497 seconds
+  Import took 0.923420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001245 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/Sand.png
+  artifactKey: Guid(ad70cf80be4314a5ea60b3ae90bd754a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/Sand.png using Guid(ad70cf80be4314a5ea60b3ae90bd754a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdec90ea12b6cc50f869a26c97961a04') in 0.505097 seconds
+  Import took 0.519104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000979 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/TexturesCom_WoodFine0059_11_seamless_S.png
+  artifactKey: Guid(3a55a996f243144bab619e346fb9fa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/TexturesCom_WoodFine0059_11_seamless_S.png using Guid(3a55a996f243144bab619e346fb9fa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f372f9464286e350d16d853ae0eb46e') in 0.494894 seconds
+  Import took 0.507698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000827 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/BWVertStripes.png
+  artifactKey: Guid(5c97fed4f6d494cef8d9236d17937a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/BWVertStripes.png using Guid(5c97fed4f6d494cef8d9236d17937a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43624f5f5cc9a8d12ba2ef87ddf0b1dd') in 0.171014 seconds
+  Import took 0.185746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000991 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/SchemeFabric.png
+  artifactKey: Guid(da6c000cb6bca420d8ba0bae060c3c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/SchemeFabric.png using Guid(da6c000cb6bca420d8ba0bae060c3c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f394c640f62ed88ac0d3550019f004cb') in 0.381939 seconds
+  Import took 0.395852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001050 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/OrangeFabric.png
+  artifactKey: Guid(257d4fc55e75a4b9c8842811977d6642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/OrangeFabric.png using Guid(257d4fc55e75a4b9c8842811977d6642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03920cec43f26d6494c64c1199e0e937') in 0.151825 seconds
+  Import took 0.167501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024830 seconds.
+  path: Assets/Beach/Beach Essentials/Textures/OrangeFabric.png
+  artifactKey: Guid(257d4fc55e75a4b9c8842811977d6642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Beach Essentials/Textures/OrangeFabric.png using Guid(257d4fc55e75a4b9c8842811977d6642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03920cec43f26d6494c64c1199e0e937') in 0.129604 seconds
+  Import took 0.145205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.051924 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 01
+  artifactKey: Guid(6c45354a74aacd241ba579a3282b3649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 01 using Guid(6c45354a74aacd241ba579a3282b3649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdd293fe034d9bb09e775097e0fb97d') in 0.030794 seconds
+  Import took 0.045558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002348 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 01
+  artifactKey: Guid(6c45354a74aacd241ba579a3282b3649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 01 using Guid(6c45354a74aacd241ba579a3282b3649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdd293fe034d9bb09e775097e0fb97d') in 0.008213 seconds
+  Import took 0.024082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.645223 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 08
+  artifactKey: Guid(a5313d7f81b904943b1eb81912b4e780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 08 using Guid(a5313d7f81b904943b1eb81912b4e780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924eb05af7821c8b9895d29c369eed39') in 0.029022 seconds
+  Import took 0.045052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003223 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 08
+  artifactKey: Guid(a5313d7f81b904943b1eb81912b4e780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 08 using Guid(a5313d7f81b904943b1eb81912b4e780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924eb05af7821c8b9895d29c369eed39') in 0.007403 seconds
+  Import took 0.023291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.260611 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 07
+  artifactKey: Guid(c02a5c16a524c084e9c0c7d775da7ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 07 using Guid(c02a5c16a524c084e9c0c7d775da7ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3024107ddc4478739f8427f5a1fdee') in 0.023881 seconds
+  Import took 0.038825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001624 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 07
+  artifactKey: Guid(c02a5c16a524c084e9c0c7d775da7ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 07 using Guid(c02a5c16a524c084e9c0c7d775da7ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3024107ddc4478739f8427f5a1fdee') in 0.008704 seconds
+  Import took 0.021535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.635182 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 06
+  artifactKey: Guid(45ab84152082fc441bdc0057f35efb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 06 using Guid(45ab84152082fc441bdc0057f35efb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7b8f7d6e2fa63bb6703dede1ce641c') in 0.028578 seconds
+  Import took 0.044656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001897 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 06
+  artifactKey: Guid(45ab84152082fc441bdc0057f35efb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 06 using Guid(45ab84152082fc441bdc0057f35efb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7b8f7d6e2fa63bb6703dede1ce641c') in 0.008589 seconds
+  Import took 0.026689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.789773 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 04
+  artifactKey: Guid(08f09cff78d392c4bb515f3237b1cb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 04 using Guid(08f09cff78d392c4bb515f3237b1cb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dfbc7d3e3f0861279d068389cc69d1') in 0.029057 seconds
+  Import took 0.046086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002213 seconds.
+  path: Assets/Beach/Sand textures pack/Sand 04
+  artifactKey: Guid(08f09cff78d392c4bb515f3237b1cb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Sand textures pack/Sand 04 using Guid(08f09cff78d392c4bb515f3237b1cb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dfbc7d3e3f0861279d068389cc69d1') in 0.009051 seconds
+  Import took 0.023403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.107264 seconds.
+  path: Assets/Beach/Stylize Water Texture/Scene
+  artifactKey: Guid(35c51be547b1b5149808eae4a6922fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Stylize Water Texture/Scene using Guid(35c51be547b1b5149808eae4a6922fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1619229976b60cd46e9d02cf1b92cccf') in 0.026244 seconds
+  Import took 0.044208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.666709 seconds.
+  path: Assets/Beach/Yughues Free Palm Trees/Meshes
+  artifactKey: Guid(f5252cd90dd3c244e8ef65df94f11f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Yughues Free Palm Trees/Meshes using Guid(f5252cd90dd3c244e8ef65df94f11f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be17dae6c476fbc75ff6ec8d3b2b6dbb') in 0.011776 seconds
+  Import took 0.026244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.324431 seconds.
+  path: Assets/Beach/Yughues Free Palm Trees/Materials
+  artifactKey: Guid(f867deb53a54d0d4287bfdfb6c9e08b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Yughues Free Palm Trees/Materials using Guid(f867deb53a54d0d4287bfdfb6c9e08b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35f7004ad724dd3389c97eb8ff33bf7') in 0.027903 seconds
+  Import took 0.044528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002096 seconds.
+  path: Assets/Beach/Yughues Free Palm Trees/Materials
+  artifactKey: Guid(f867deb53a54d0d4287bfdfb6c9e08b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Yughues Free Palm Trees/Materials using Guid(f867deb53a54d0d4287bfdfb6c9e08b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35f7004ad724dd3389c97eb8ff33bf7') in 0.009161 seconds
+  Import took 0.022694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.337088 seconds.
+  path: Assets/Beach/Yughues Free Palm Trees/Demo
+  artifactKey: Guid(cdb0cb0110c1fef4bbe82a13f1afd72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach/Yughues Free Palm Trees/Demo using Guid(cdb0cb0110c1fef4bbe82a13f1afd72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1658c13e94302f7c6320a47fd6740ce7') in 0.031724 seconds
+  Import took 0.048945 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
