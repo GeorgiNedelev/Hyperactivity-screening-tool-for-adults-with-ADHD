@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Unity.unity
+- path: Assets/Scenes/Vr movement.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
