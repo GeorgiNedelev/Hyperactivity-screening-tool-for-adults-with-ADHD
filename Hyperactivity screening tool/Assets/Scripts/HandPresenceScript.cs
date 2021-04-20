@@ -10,7 +10,7 @@ using System.IO;
 using System.Text;
 
 
-public class ControllerSetupScript : MonoBehaviour
+public class HandPresenceScript : MonoBehaviour
 {
     private List<InputDevice> inputDevicesList;
     
@@ -27,6 +27,7 @@ public class ControllerSetupScript : MonoBehaviour
     private InputDeviceCharacteristics HMDControllerCharacteristics;
     private InputDeviceCharacteristics leftControllerCharacteristics;
 
+    private string path;
     private bool allDevicesFoundBool= false;
    public void Start()
     {
@@ -89,6 +90,7 @@ public class ControllerSetupScript : MonoBehaviour
         {
             RightController.GetSensorData();
             HMD.GetSensorData();
+            LeftController.GetSensorData();
             //AddToList(targetDevice);
             once = true;
         }
@@ -97,10 +99,11 @@ public class ControllerSetupScript : MonoBehaviour
         {
             
             if (once)
-            {   
-                RightController.SaveToFile();
-                HMD.SaveToFile();
-                LeftController.SaveToFile();
+            {
+                PathConfig();
+                RightController.SaveToFile(path);
+                HMD.SaveToFile(path);
+                LeftController.SaveToFile(path);
 
                 once = false;
             }
@@ -109,9 +112,37 @@ public class ControllerSetupScript : MonoBehaviour
         }
     }
 
+    
+
+    public void PathConfig()
+    {
+
+        int participantID = 0;
+
+        path = @"C:\Data\DataFromParticipiant";
+
+
+        while (true)
+        {
+
+            string path1 = path + participantID.ToString();
+            if (!Directory.Exists(path1))
+            {
+                path = path1;
+                break;
+
+            }
+            participantID++;
+
+        }
+
+        participantID = 0;
+        Debug.LogWarning("Path created at" + path);
+        DirectoryInfo di = Directory.CreateDirectory(path);
+
+    }
 
 
 
-   
 }
 
