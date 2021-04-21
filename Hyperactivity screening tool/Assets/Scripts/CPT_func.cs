@@ -9,7 +9,7 @@ public class CPT_func : MonoBehaviour
 {
 
     Text txt;
-    int lettersSize;
+    int blockSize = 20;
 
     Dictionary<string,int> letters1;
     List<float> ISI = new List<float> { 1f, 2f, 4f };
@@ -28,12 +28,32 @@ public class CPT_func : MonoBehaviour
         txt = gameObject.GetComponent<Text>();
         letters1 = new Dictionary<string, int>
         {
-            {"A",30},
-            {"B",30},
-            {"C",30},
+            {"A",4},
+            {"B",4},
+            {"C",4},
+            {"D",4},
+            {"E",4},
+            {"F",4},
+            {"G",4},
+            {"H",4},
+            {"I",4},
+            {"J",4},
+            {"K",4},
+            {"L",4},
+            {"M",4},
+            {"N",4},
+            {"O",4},
+            {"P",4},
+            {"Q",4},
+            {"R",4},
+            {"S",4},
+            {"T",4},
+            {"U",4},
+            {"W",4},
             {"X",10},
+            {"Y",4},
+            {"Z",4}
         };
-        lettersSize = letters1.Count;
         var rng = new System.Random();
         shuffledISI = ISI.OrderBy(a => Guid.NewGuid()).ToList();
     }
@@ -41,21 +61,21 @@ public class CPT_func : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (reps < lettersSize)
+        if (reps < blockSize)
         {
             Connors(shuffledISI[0]);
         }
 
-        if (reps >= lettersSize && reps < (lettersSize+lettersSize))
+        if (reps >= blockSize && reps < (blockSize + blockSize))
         {
             Connors(shuffledISI[1]);
         }
 
-        if (reps >= (lettersSize + lettersSize))
+        if (reps >= (blockSize + blockSize))
         {
             Connors(shuffledISI[2]);
         }
-        if (reps >= (lettersSize + lettersSize + lettersSize))
+        if (reps >= (blockSize + blockSize + blockSize))
         {
             var rng = new System.Random();
             shuffledISI = ISI.OrderBy(a => Guid.NewGuid()).ToList();
