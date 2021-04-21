@@ -30,7 +30,6 @@ public class CPT_func : MonoBehaviour
         {
             {"A",30},
             {"B",30},
-            {"C",30},
             {"X",10},
         };
         lettersSize = letters1.Count;
@@ -41,6 +40,7 @@ public class CPT_func : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (reps < lettersSize)
         {
             Connors(shuffledISI[0]);
