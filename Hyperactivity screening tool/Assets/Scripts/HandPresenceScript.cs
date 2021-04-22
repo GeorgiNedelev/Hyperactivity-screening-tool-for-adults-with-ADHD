@@ -13,7 +13,7 @@ using System.Text;
 public class HandPresenceScript : MonoBehaviour
 {
     private List<InputDevice> inputDevicesList;
-    
+
     private InputDevice targetDeviceRight;
     private InputDevice targetDeviceHMD;
     private InputDevice targetDeviceLeft;
@@ -28,12 +28,25 @@ public class HandPresenceScript : MonoBehaviour
     private InputDeviceCharacteristics leftControllerCharacteristics;
 
     private string path;
-    private bool allDevicesFoundBool= false;
-   public void Start()
+    private bool allDevicesFoundBool = false;
+    // Input and data collection control
+    private float testDuration = 1000;
+    private float timeOfTestStart;
+    private int gameSwitch = 1;
+
+
+    public Animator catAnimator;
+    CatMotion catScript;
+    GameObject theCat;
+    public float catAnimTime =1;
+    public float startAnimationTime;
+    public float animationPlayedTime;
+    private float stopAnimationTime;
+    public void Start()
     {
         // Instatiate the devices list and differentiate the controller characteristics
         inputDevicesList = new List<InputDevice>();
-        
+
         rightControllerCharactersitics = InputDeviceCharacteristics.Right | InputDeviceCharacteristics.Controller;
         HMDControllerCharacteristics = InputDeviceCharacteristics.HeadMounted;
         leftControllerCharacteristics = InputDeviceCharacteristics.Left | InputDeviceCharacteristics.Controller;
@@ -43,12 +56,12 @@ public class HandPresenceScript : MonoBehaviour
     // Makes an intance of a sensorClass for each controller found
     private void DeviceSetup()
     {
-            
+
         // Rreturns all devices tracked.  Used for safety, makes sure all devices are tracked before assigning them
         InputDevices.GetDevices(inputDevicesList);
 
-        Debug.LogWarning("number of decvices " + inputDevicesList.Count);
-        if (inputDevicesList.Count  == 3)
+       // Debug.LogWarning("number of decvices " + inputDevicesList.Count);
+        if (inputDevicesList.Count == 3)
         {
             targetDeviceHMD = inputDevicesList[0];
             targetDeviceLeft = inputDevicesList[1];
@@ -66,13 +79,17 @@ public class HandPresenceScript : MonoBehaviour
             allDevicesFoundBool = true;
         }
 
-        
+        theCat = GameObject.Find("Cat");
+        catScript = theCat.GetComponent<CatMotion>();
+        catAnimator = theCat.GetComponent<Animator>();
+
+
 
     }
 
 
 
-    bool once = true;
+
     // Update is called once per frame
     void Update()
     {
@@ -80,40 +97,87 @@ public class HandPresenceScript : MonoBehaviour
         targetDeviceRight.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValueRight);
         targetDeviceRight.TryGetFeatureValue(CommonUsages.secondaryButton, out bool secondaryButtonValue);
         targetDeviceLeft.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValueLeft);
-
+        // Making sure that all devices are tracked
         if (!allDevicesFoundBool)
             DeviceSetup();
 
 
-        // Save data locally
+        // Button functionality(optional)
         if (primaryButtonValueRight)
         {
-            RightController.GetSensorData();
-            HMD.GetSensorData();
-            LeftController.GetSensorData();
+
             //AddToList(targetDevice);
-            once = true;
+
         }
-        // Save data to a csv
+        
         if (secondaryButtonValue)
         {
-            
-            if (once)
-            {
-                PathConfig();
-                RightController.SaveToFile(path);
-                HMD.SaveToFile(path);
-                LeftController.SaveToFile(path);
+          
 
-                once = false;
-            }
+        }
+        // This switch statement controls the flow of the game
+        catScript.CatMoves();
+
+        switch (gameSwitch)
+        {
+            case 1:
+                // Listens to a button press to save the time and move on to data collection
+                if (secondaryButtonValue)
+                {
+                     timeOfTestStart = Time.realtimeSinceStartup;
+                     Debug.LogWarning("The test Begins" + Time.realtimeSinceStartup.ToString());
+                     
+                    gameSwitch = 2;
+                }
+                break;
+            case 2:
+                //Data geathering 
+                LeftController.GetSensorData();
+                RightController.GetSensorData();
+                HMD.GetSensorData();
+                
+                //Cat animation
+                if(Time.realtimeSinceStartup > startAnimationTime + 15.0f && catAnimator.IsInTransition(0) )
+                {
+                    catAnimator.SetBool("walkingBool", true);
+                    catAnimator.SetBool("idleBool", false);
+                   
+                    Debug.LogWarning("catMoves");
+                    startAnimationTime = Time.realtimeSinceStartup;
+
+                    theCat.GetComponent<AudioSource>().Play();
+                    
+                }
+                if (catAnimator.GetCurrentAnimatorStateInfo(0).length > catAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime && Time.realtimeSinceStartup > startAnimationTime + 5.0f && catAnimator.GetBool("walkingBool") == true)
+                {   
+                    catAnimator.SetBool("walkingBool", false);
+                    catAnimator.SetBool("idleBool", true);
+                    Debug.LogWarning("Finished MOving");
+                }
+
+
+
+                // when the test time is over save the files to csv files
+                if (Time.realtimeSinceStartup > animationPlayedTime + testDuration)
+                {
+                    Debug.LogWarning("The test ended" + Time.realtimeSinceStartup.ToString());
+                    PathConfig();
+                    RightController.SaveToFile(path);
+                    HMD.SaveToFile(path);
+                    LeftController.SaveToFile(path);
+                    gameSwitch = 1;
+                }
+                 break;
 
 
         }
+
+
     }
 
     
-
+    // Checking if a directory exist in a particular path, if it does it increments the participantID
+    // until a folder with an id does not exist and creates it to save the sensor data in it
     public void PathConfig()
     {
 

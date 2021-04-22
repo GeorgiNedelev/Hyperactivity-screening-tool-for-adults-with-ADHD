@@ -39,7 +39,7 @@ public class SensorClass : MonoBehaviour
 
 
 
-    //Get and Save sensor data
+    //Get and Save sensor data to their coresponding lists
     public void GetSensorData()
     {
 
@@ -69,38 +69,14 @@ public class SensorClass : MonoBehaviour
     public void SensorSaveDataToList(List<Vector3> dataList, Vector3 dataToSave)
     {
 
-
-      //  Debug.LogWarning("FIRST LOOPAdded Value" + dataToSave);
-       // if (dataList.Count > 0)
-      //  {
-
-           // if (dataList[dataList.Count - 1].ToString() != dataToSave.ToString())
-           // {
-
          dataList.Add(dataToSave);
-                
-         //Debug.LogWarning("Added Value" + dataToSave);
-              
-                // Debug.LogWarning("last data point :" + RightControllerData_Acceleration[RightControllerData_Acceleration.Count - 1] + "added data point" + devicePosition );
-           // }
-            //Debug.LogWarning("Discarded value" + dataToSave);
-        //}
-       // else
-        //{
-         //   dataList.Add(dataToSave);
-       // }
-
-    }
     
+    }
+    // Overloaded function for quaternion input
     public void SensorSaveDataToList(List<Vector3> dataList, Quaternion dataToSave)
     {
-        
-
          dataList.Add(dataToSave.eulerAngles);
 
-        // Debug.LogWarning("Added Value eluerAngles : " + dataToSave);
-
-       
     }
 
 
@@ -108,9 +84,10 @@ public class SensorClass : MonoBehaviour
 
 
 
-
+    //Saving a CSV file for each sensor for each sensor input
     public void SaveToFile(string path)
-    {
+    {   
+        //Adding the sensor input lists to a common list
         MeasurementsCollectiveList.Add(Position_list);
         MeasurementsCollectiveList.Add(Velocity_list);
         MeasurementsCollectiveList.Add(Acceleration_list);
@@ -120,7 +97,7 @@ public class SensorClass : MonoBehaviour
         string[] listNames = { "Position_list", "Velocity_list", "Acceleration_list", "Angular_Acceleration_list", "Angular_Velocity_list", "Rotation_List"};
 
        
-        
+        // For each list in the collective list
         for (int i = 0; i < MeasurementsCollectiveList.Count; i++)
         {
             //string path1 = @"C:\Data\";
@@ -130,13 +107,9 @@ public class SensorClass : MonoBehaviour
 
             StringBuilder sbOutput = new StringBuilder();
 
-
-            //UnicontaAPI.FetchInv(inventar, compID, userN, pw).GetAwaiter().GetResult();
-
-
             sbOutput.AppendLine(string.Join(strSeperator, "X", "Y", "Z", "Time"));
 
-
+            // For each element of a sublist save the data in CSV
             for (int j = 0; j < MeasurementsCollectiveList[i].Count; j++)
             {
 
