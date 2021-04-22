@@ -23,7 +23,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: m_defaultWhite1_lambert5
-    second: {fileID: 2100000, guid: b3c61c8e1db7fb84691ec3fabf89ea60, type: 2}
+    second: {fileID: 2100000, guid: 3b490725e2f46744c93c3a0f761f79ac, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

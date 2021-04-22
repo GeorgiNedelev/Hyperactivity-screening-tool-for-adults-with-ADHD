@@ -16,7 +16,7 @@ public class CPT_func : MonoBehaviour
     List<float> shuffledISI;
 
     float elapsed = 0f;
-
+    public bool cptStart = false;
     //int a = 0;
     //int b = 0;
     //int c = 0;
@@ -25,6 +25,8 @@ public class CPT_func : MonoBehaviour
 
     void Start()
     {
+
+        
         txt = gameObject.GetComponent<Text>();
         letters1 = new Dictionary<string, int>
         {
@@ -61,53 +63,58 @@ public class CPT_func : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (reps < blockSize)
-        {
-            Connors(shuffledISI[0]);
-        }
 
-        if (reps >= blockSize && reps < (blockSize + blockSize))
+        if (cptStart == true)
         {
-            Connors(shuffledISI[1]);
-        }
+            if (reps < blockSize)
+            {
+                Connors(shuffledISI[0]);
+            }
 
-        if (reps >= (blockSize + blockSize))
-        {
-            Connors(shuffledISI[2]);
-        }
-        if (reps >= (blockSize + blockSize + blockSize))
-        {
-            var rng = new System.Random();
-            shuffledISI = ISI.OrderBy(a => Guid.NewGuid()).ToList();
-            reps = 1;
-            Debug.Log("NEW ROUND");
-        }
+            if (reps >= blockSize && reps < (blockSize + blockSize))
+            {
+                Connors(shuffledISI[1]);
+            }
 
-        //if (reps >= 100)
-        //{
-        //    Debug.Log("DONE_____");
-        //    Debug.Log("A: " + a);
-        //    Debug.Log("B: " + b);
-        //    Debug.Log("C: " + c);
-        //    Debug.Log("X: " + x);
-        //    Debug.Log("Reps: " + reps);
-        //}
+            if (reps >= (blockSize + blockSize))
+            {
+                Connors(shuffledISI[2]);
+            }
+            if (reps >= (blockSize + blockSize + blockSize))
+            {
+                var rng = new System.Random();
+                shuffledISI = ISI.OrderBy(a => Guid.NewGuid()).ToList();
+                reps = 1;
+                Debug.Log("NEW ROUND");
+            }
+
+            //if (reps >= 100)
+            //{
+            //    Debug.Log("DONE_____");
+            //    Debug.Log("A: " + a);
+            //    Debug.Log("B: " + b);
+            //    Debug.Log("C: " + c);
+            //    Debug.Log("X: " + x);
+            //    Debug.Log("Reps: " + reps);
+            //}
+        }
     }
      
     void Connors(float interval)
-    {
-        string letter = weightedRandom();
-        elapsed += Time.deltaTime;
-        if (elapsed >= 0.25f)
         {
-            txt.text = "";
-        }
-        if (elapsed >= interval)
-        {
-            txt.text = letter;
-            elapsed = elapsed % 1f;
-            reps++;
-        }
+            string letter = weightedRandom();
+            elapsed += Time.deltaTime;
+            if (elapsed >= 0.25f)
+            {
+                txt.text = "";
+            }
+            if (elapsed >= interval)
+            {
+                txt.text = letter;
+                elapsed = elapsed % 1f;
+                reps++;
+            }
+        
     }
 
     string weightedRandom()
@@ -148,5 +155,5 @@ public class CPT_func : MonoBehaviour
         return letterString;
     }
 
-
+    
 }

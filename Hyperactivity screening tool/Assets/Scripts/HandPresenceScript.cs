@@ -30,7 +30,7 @@ public class HandPresenceScript : MonoBehaviour
     private string path;
     private bool allDevicesFoundBool = false;
     // Input and data collection control
-    private float testDuration = 1000;
+    private float testDuration = 10;
     private float timeOfTestStart;
     private int gameSwitch = 1;
 
@@ -38,10 +38,14 @@ public class HandPresenceScript : MonoBehaviour
     public Animator catAnimator;
     CatMotion catScript;
     GameObject theCat;
+   
     public float catAnimTime =1;
     public float startAnimationTime;
     public float animationPlayedTime;
     private float stopAnimationTime;
+    private GameObject CPTcanvas;
+    private CPT_func CPT_script;
+    GameObject testFinished;
     public void Start()
     {
         // Instatiate the devices list and differentiate the controller characteristics
@@ -79,6 +83,10 @@ public class HandPresenceScript : MonoBehaviour
             allDevicesFoundBool = true;
         }
 
+        CPTcanvas = GameObject.Find("Text");
+        CPT_script = CPTcanvas.GetComponent<CPT_func>();
+        testFinished = GameObject.Find("Text1");
+        testFinished.SetActive(false);
         theCat = GameObject.Find("Cat");
         catScript = theCat.GetComponent<CatMotion>();
         catAnimator = theCat.GetComponent<Animator>();
@@ -126,8 +134,9 @@ public class HandPresenceScript : MonoBehaviour
                 {
                      timeOfTestStart = Time.realtimeSinceStartup;
                      Debug.LogWarning("The test Begins" + Time.realtimeSinceStartup.ToString());
-                     
-                    gameSwitch = 2;
+                     CPT_script.cptStart = true;
+                     gameSwitch = 2;
+                     startAnimationTime= Time.realtimeSinceStartup;
                 }
                 break;
             case 2:
@@ -137,7 +146,7 @@ public class HandPresenceScript : MonoBehaviour
                 HMD.GetSensorData();
                 
                 //Cat animation
-                if(Time.realtimeSinceStartup > startAnimationTime + 15.0f && catAnimator.IsInTransition(0) )
+                if(Time.realtimeSinceStartup > startAnimationTime + 60.0f && catAnimator.IsInTransition(0) )
                 {
                     catAnimator.SetBool("walkingBool", true);
                     catAnimator.SetBool("idleBool", false);
@@ -148,7 +157,7 @@ public class HandPresenceScript : MonoBehaviour
                     theCat.GetComponent<AudioSource>().Play();
                     
                 }
-                if (catAnimator.GetCurrentAnimatorStateInfo(0).length > catAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime && Time.realtimeSinceStartup > startAnimationTime + 5.0f && catAnimator.GetBool("walkingBool") == true)
+                if (catAnimator.GetCurrentAnimatorStateInfo(0).length > catAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime && Time.realtimeSinceStartup > startAnimationTime + 6.0f && catAnimator.GetBool("walkingBool") == true)
                 {   
                     catAnimator.SetBool("walkingBool", false);
                     catAnimator.SetBool("idleBool", true);
@@ -158,13 +167,16 @@ public class HandPresenceScript : MonoBehaviour
 
 
                 // when the test time is over save the files to csv files
-                if (Time.realtimeSinceStartup > animationPlayedTime + testDuration)
+                if (Time.realtimeSinceStartup > timeOfTestStart + testDuration)
                 {
                     Debug.LogWarning("The test ended" + Time.realtimeSinceStartup.ToString());
                     PathConfig();
                     RightController.SaveToFile(path);
                     HMD.SaveToFile(path);
                     LeftController.SaveToFile(path);
+                    CPT_script.cptStart = false;
+                    CPTcanvas.SetActive(false);
+                    testFinished.gameObject.SetActive(true);
                     gameSwitch = 1;
                 }
                  break;

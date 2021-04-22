@@ -45,7 +45,7 @@ public class CatMotion : MonoBehaviour
 			if (Time.realtimeSinceStartup > time + 0.01f)
 			{
 
-				GetComponent<Transform>().position = GetComponent<Transform>().position + new Vector3(0, 0, 0.5f);
+				GetComponent<Transform>().position = GetComponent<Transform>().position + new Vector3(-0.8f, 0, 0);
 				time = Time.realtimeSinceStartup;
 				
 				

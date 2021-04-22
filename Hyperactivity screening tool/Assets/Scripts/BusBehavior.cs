@@ -11,22 +11,32 @@ public class BusBehavior : MonoBehaviour
     Vector3 pointBPos = new Vector3(-2683, -300, -5960);
     Vector3 pointAPos = new Vector3(-2683, -300, 3631);
     // Start is called before the first frame update
+    private float soundTime;
+    bool once = false;
     void Start()
     {
-        speed = 500f;
+        speed = 700f;
         direction = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (elapsed >= period)
-        {
-            Move(direction);
 
-            if (elapsed >=145)
+
+        if (elapsed >= period)
+        {   
+            Move(direction);
+            if (once == false)
+            {
+                Debug.LogWarning("in the loop");
+                GetComponent<AudioSource>().Play();
+                once = true;
+            }
+            if (elapsed >=(period+25))
             {
                 elapsed = 0;
+                once = false;
 
                 switch (direction)
                 {
@@ -35,12 +45,15 @@ public class BusBehavior : MonoBehaviour
                     break;
 
                     case false:
+
                         direction = true;
                     break;
                 }
             }
         }
         elapsed += Time.deltaTime;
+
+
     }
 
     void Move(bool direct)
