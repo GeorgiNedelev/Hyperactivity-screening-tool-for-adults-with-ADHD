@@ -102,7 +102,7 @@ public class SensorClass : MonoBehaviour
         {
             //string path1 = @"C:\Data\";
             
-            string strFilePath = (path + @"\" + sensorName + listNames[i] + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".csv");
+            string strFilePath = (path + @"/" + sensorName + listNames[i] + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".csv");
             string strSeperator = ",";
 
             StringBuilder sbOutput = new StringBuilder();

@@ -30,7 +30,7 @@ public class HandPresenceScript : MonoBehaviour
     private string path;
     private bool allDevicesFoundBool = false;
     // Input and data collection control
-    private float testDuration = 10;
+    private float testDuration = 420;
     private float timeOfTestStart;
     private int gameSwitch = 1;
 
@@ -103,7 +103,7 @@ public class HandPresenceScript : MonoBehaviour
     {
         // tracks button pressed events on the controllers
         targetDeviceRight.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValueRight);
-        targetDeviceRight.TryGetFeatureValue(CommonUsages.secondaryButton, out bool secondaryButtonValue);
+        targetDeviceRight.TryGetFeatureValue(CommonUsages.triggerButton, out bool secondaryButtonValue);
         targetDeviceLeft.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValueLeft);
         // Making sure that all devices are tracked
         if (!allDevicesFoundBool)
@@ -146,13 +146,15 @@ public class HandPresenceScript : MonoBehaviour
                 HMD.GetSensorData();
                 
                 //Cat animation
-                if(Time.realtimeSinceStartup > startAnimationTime + 60.0f && catAnimator.IsInTransition(0) )
+                if(Time.realtimeSinceStartup > startAnimationTime + 50.0f && catAnimator.IsInTransition(0) )
                 {
                     catAnimator.SetBool("walkingBool", true);
                     catAnimator.SetBool("idleBool", false);
                    
+
                     Debug.LogWarning("catMoves");
                     startAnimationTime = Time.realtimeSinceStartup;
+
 
                     theCat.GetComponent<AudioSource>().Play();
                     
@@ -195,8 +197,8 @@ public class HandPresenceScript : MonoBehaviour
 
         int participantID = 0;
 
-        path = @"C:\Data\DataFromParticipiant";
-
+        //path = @"C:\Data\DataFromParticipiant";
+        path = Application.persistentDataPath + @"./Data/DataFromParticipiant";
 
         while (true)
         {

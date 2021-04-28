@@ -8,8 +8,8 @@ public class BusBehavior : MonoBehaviour
     float period = 120f;
     bool direction;
     public float speed;
-    Vector3 pointBPos = new Vector3(-2683, -300, -5960);
-    Vector3 pointAPos = new Vector3(-2683, -300, 3631);
+    Vector3 pointBPos = new Vector3(-2683, -300, -6300);
+    Vector3 pointAPos = new Vector3(-2683, -300, 6000);
     // Start is called before the first frame update
     private float soundTime;
     bool once = false;
